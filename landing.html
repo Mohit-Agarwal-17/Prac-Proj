@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-       rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
         crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/landing.css">
@@ -69,7 +71,8 @@
                 <form>
                     <input class="loginData" type="text" placeholder="Email or phone number">
                     <br>
-                    <input class="loginData" type="password" placeholder="Password">
+                    <input class="loginData" id="password" type="password" placeholder="Password">
+                    <i class="bi bi-eye-slash passTog" id="togglePassword"></i>
                     <br>
                     <button class="btn btn-primary loginData" type="submit">Sign in</button>
                 </form>
@@ -106,7 +109,7 @@
             <div class="contact-list">
                 <ul style="list-style-type: none;" class="list-icon">
                     <li class="contact-icon">
-                        
+
                         <a href=""><i class="fa-brands fa-facebook fa-3x fa-solid"></i></a>
                         <a class="icon-tag" href=""><span class="icon-name">Facebook</span></a>
                     </li>
@@ -124,11 +127,14 @@
 
         <div>
             <!-- <img src="/Wine/flamingo.png" alt="" class="site-icon"> -->
-            <h1 class="header-name" style="color: #1181C8;" >EffSpace</h1>
+            <h1 class="header-name" style="color: #1181C8;">EffSpace</h1>
             <!-- <p class="header-p">Since 191</p> -->
             <p class="copyright">© 2023 </p>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="landing.js"></script>
 </body>
 
 </html>

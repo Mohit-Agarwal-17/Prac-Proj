@@ -54,6 +54,12 @@ hr
     border-width: 1px;
 }
 
+.passTog
+{
+    margin-left: -30px;
+    cursor: pointer;
+}
+
 .or
 {
     margin-left: 347px;
