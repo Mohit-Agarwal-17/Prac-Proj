@@ -54,7 +54,7 @@ hr
     border-width: 1px;
 }
 
-span
+.or
 {
     margin-left: 347px;
 }
@@ -89,6 +89,7 @@ span
 {
     background-color: white;
     margin-top: 30px;
+    min-height: 530px;
 }
 
 .infoimg
@@ -121,3 +122,49 @@ span
     padding-left: 450px;
     font-size: 30px;
 }
+
+.footer
+{
+    padding-top: 30px;
+    background-color: #EEEEEE;
+    min-height: 300px;
+    /* float: left; */
+}
+
+.footer-head
+{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.contact-list {
+    float: left;
+}
+
+
+.contact-icon
+{
+    padding: 7px 10px;
+}
+
+.icon-name
+{
+    padding-left: 15px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter
+{
+    color: black;
+}
+
+.icon-tag
+{
+    text-decoration: none;
+    color: black;
+}
+
+.header-name, .copyright
+{
+    padding-left: 1000px;
+}
+
