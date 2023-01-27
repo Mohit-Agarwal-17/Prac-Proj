@@ -129,31 +129,33 @@ hr
 
 .footer
 {
-    padding-top: 30px;
+    padding-top: 10px;
     background-color: #EEEEEE;
-    min-height: 300px;
-    /* float: left; */
+    min-height: 90px;
+}
+
+.footer-start
+{
+    float: left;
 }
 
 .footer-head
 {
     padding-left: 40px;
     padding-bottom: 10px;
+    font-size: 20px;
 }
-
-.contact-list {
-    float: left;
-}
-
 
 .contact-icon
 {
     padding: 7px 10px;
+    display: inline;
 }
 
 .icon-name
 {
-    padding-left: 15px;
+    padding-left: 2px;
+    font-size: 13px;
 }
 
 .fa-facebook, .fa-instagram, .fa-twitter
@@ -167,8 +169,14 @@ hr
     color: black;
 }
 
-.header-name, .copyright
+.header-name
 {
     padding-left: 1000px;
+    font-size: 35px;
 }
 
+.copyright
+{
+    padding-left: 1000px;
+    font-size: 13px;
+}
