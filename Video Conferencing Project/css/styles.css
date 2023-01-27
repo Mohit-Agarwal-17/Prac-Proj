@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+    text-align: center;
+    margin: 5%;
+}
+
+h1 {
+    color: #fff;
+    background-color: #000;
+    margin: 0 15%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    margin: 15%;
+}
+
+.hide-btn {
+    display: none;
+}
+
+.margin-meet {
+    margin: 5% auto;
+}
