@@ -1,0 +1,89 @@
+#section-1 {
+    padding: 0% 10%;
+    /* background-color: #F9F9F9; */
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #1181C8;
+    font-size: 1.7rem;
+    font-family: 'Solitreo', cursive;
+    font-weight: bold;
+}
+
+.searchBox {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.searchBar {
+    margin-right: 0.5rem;
+
+}
+
+.navbar-nav {
+    margin-right: 5rem;
+}
+
+.nav-item
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto 20px auto auto;
+}
+
+.nav-link {
+    /* margin: auto auto auto auto; */
+    /* padding-left: 2rem; */
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #645CBB;
+    text-align: center;
+}
+
+/*  */
+
+#section-2 {
+    padding: 2% 10%;
+    background-color: #F9F9F9;
+}
+
+.section-2-container
+{
+    display: flex;
+}
+
+.card-body
+{
+    text-align: center;
+}
+
+.card-body img
+{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 2.1rem;
+}
+
+.card-link-1
+{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.card-body-main
+{
+    text-align: left;
+}
+
+.card-body-main ol
+{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold; */
+    padding-top: 0.7rem;
+    padding-left: 1.2rem;
+}
